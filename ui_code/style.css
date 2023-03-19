@@ -1,0 +1,15 @@
+.item{
+    height: 25px;
+    width :25px;
+    border:2px solid black;
+}
+#grid_container{
+    display:grid;
+    height: 480px;
+    width: 480px;
+    grid-template-columns: repeat(40,1fr);
+    /* border: 2px solid black; */
+    margin: 0px 0px 0px 200px;
+    
+}
+
